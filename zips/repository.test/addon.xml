@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.test" name="Test" version="1.0.1" provider-name="TW">
+	<extension point="xbmc.addon.repository" name="Test Repository">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/matthewharrison2011/repository.test/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/matthewharrison2011/repository.test/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/matthewharrison2011/repository.test/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Test</summary>
+		<description lang="en">Test world repo. V.1.0.1 - Added Mobdro</description>
+		<genre></genre>
+	</extension>
+</addon>
